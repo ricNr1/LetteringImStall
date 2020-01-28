@@ -187,7 +187,7 @@ header .middle-menu{ border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; 
 
 header .logo{ padding: 30px 0; height: 160px; }
 
-header .logo img{ height: 100%; width: auto; }
+header .logo img{ height: 140%; width: auto; }
 
 
 /* BOTTOM AREA */
@@ -422,7 +422,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 8. FOOTER
 --------------------------------- */
 
-footer{ background: #29333C; color: #ddd;  }
+footer{ background: rgb(211, 127, 1); color: #ddd;  }
 
 footer .footer-section{ margin: 30px 0; }
 
