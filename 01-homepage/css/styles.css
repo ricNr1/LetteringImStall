@@ -183,11 +183,11 @@ header .src-area .src-btn{ position: absolute; top: 0; bottom: 0; right: 0; widt
 	
 /* MIDDLE AREA */
 
-header .middle-menu{ border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;  }
+header .middle-menu{ border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; height: 200px;  }
 
-header .logo{ padding: 30px 0; height: 160px; }
+header .logo{ padding: 0px 0; height: 200px; }
 
-header .logo img{ height: 100%; width: auto; }
+header .logo img{ height: 200px; width: auto; }
 
 
 /* BOTTOM AREA */
@@ -422,7 +422,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 8. FOOTER
 --------------------------------- */
 
-footer{ background: #29333C; color: #ddd;  }
+footer{ background: rgb(211, 127, 1); color: #ddd;  }
 
 footer .footer-section{ margin: 30px 0; }
 
