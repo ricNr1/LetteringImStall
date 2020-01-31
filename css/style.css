@@ -10,6 +10,7 @@ body, html {
 	font-weight: 300;
 	width: 100% !important;
 	height: 100% !important;
+	
 }
 .intro h1 {
 	font-family: 'Eis';
@@ -51,7 +52,7 @@ p.intro {
 	line-height: 24px;
 }
 a {
-	color: #8eb640;
+	color: rgb(135,106,69);
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -87,7 +88,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #8eb640;
+	background: #866945;
 	margin: 0;
 	margin-bottom: 40px;
 	border: 0;
@@ -111,13 +112,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-color: rgba(248, 248, 248, 0);
 	border-color: rgba(231, 231, 231, 0);
 }
-#menu a.navbar-brand {
-	font-family: 'Eis';
-	font-size: 36px;
-	color: #8eb640;
-	font-weight: 700;
-	letter-spacing: 1px;
-}
+	#menu a.navbar-brand {
+		font-family: 'Eis';
+		font-size: 36px;
+		color: #876a45;
+		font-weight: 700;
+		letter-spacing: 1px;
+	}
 #menu.navbar-default .navbar-nav > li > a {
 	
 	color: #ddd;
@@ -129,11 +130,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	letter-spacing: 0.5px;
 	margin: 10px 15px 0 15px;
 }
-#menu.navbar-default .navbar-nav > li > a:hover {
-	color: #8eb640;
-}
+	#menu.navbar-default .navbar-nav > li > a:hover {
+		color: #876a45;
+	}
 .on {
-	background-color: #262626 !important;
+	background-color: #876a45 !important;
 	padding: 0 !important;
 	padding: 10px 0 !important;
 }
@@ -252,20 +253,20 @@ header .intro-text {
 #restaurant-menu {
 	padding: 0 0 60px 0;
 }
-#restaurant-menu .section-title {
-	background: #444 url(../img/menueiscafe-weikersheim-bg.jpg) center center no-repeat fixed;
-	top: 0;
-	left: 0;
-	min-width: 100%;
-	min-height: 100%;
-	background-size: cover;
-}
+	#restaurant-menu .section-title {
+		background: #444 url(../images/2Guide_1800p.JPG) center center no-repeat fixed;
+		top: 0;
+		left: 0;
+		min-width: 100%;
+		min-height: 100%;
+		background-size: cover;
+	}
 #restaurant-menu .section-title h2 {
 	color: #fff;
 }
 #restaurant-menu img {
-	width: 300px;
-	box-shadow: 15px 0 #a7c44c;
+	width: 400px;
+	
 }
 #restaurant-menu h3 {
 	padding: 10px 0;
