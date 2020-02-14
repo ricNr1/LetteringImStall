@@ -3,8 +3,10 @@
 	font-family: Eis;
 }
 :root {
-	--meinBraun: #ebdedc;
-	--meinBraunBackup: #84592d;
+	--hintergrundLight: #84592d;
+	--hintergrundDark: #84592d;
+	--hintergrundWhite: #fff;
+	--hintergrundLightBackup: #84592d;
 }
 body, html {
 	font-family: 'Raleway', sans-serif;
@@ -15,6 +17,9 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 	
+}
+.hpot {
+	display: none;
 }
 .intro h1 {
 	font-family: 'Eis';
@@ -138,7 +143,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 		color: #876a45;
 	}
 .on {
-	background-color: var(--meinBraun) !important;
+	background-color: var(--hintergrundLight) !important;
 	padding: 0 !important;
 	padding: 10px 0 !important;
 }
@@ -187,7 +192,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 	.btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 		color: #fff;
-		background-color: var(--meinBraun);
+		background-color: var(--hintergrundLight);
 	}
 /* Header Section */
 .intro {
@@ -228,6 +233,9 @@ header .intro-text {
 }
 #Erklaerungen {
 	padding: 20px 0;
+}
+#myCarousel {
+	
 }
 #about h3 {
 	font-size: 20px;
@@ -640,7 +648,7 @@ color: #777;
 	padding: 50px 0 0 0;
 }
 	#footer h3 {
-		color: var(--meinBraun);
+		color: var(--hintergrundLight);
 		font-weight: 400;
 		font-size: 18px;
 		text-transform: uppercase;
@@ -650,7 +658,7 @@ color: #777;
 		padding: 20px 0;
 		margin-top: 50px;
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#779936+0,8eb640+50 */
-		background: var(--meinBraun); /* Old browsers */
+		background: var(--hintergrundLight); /* Old browsers */
 	}
 #footer .social {
 	margin: 20px 0 30px 0;
