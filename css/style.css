@@ -3,7 +3,8 @@
 	font-family: Eis;
 }
 :root {
-	--meinBraun: #84592d;
+	--meinBraun: #ebdedc;
+	--meinBraunBackup: #84592d;
 }
 body, html {
 	font-family: 'Raleway', sans-serif;
@@ -225,6 +226,9 @@ header .intro-text {
 #about {
 	padding: 120px 0;
 }
+#Erklaerungen {
+	padding: 20px 0;
+}
 #about h3 {
 	font-size: 20px;
 }
@@ -251,7 +255,7 @@ header .intro-text {
 }
 /* Menu Section */
 #restaurant-menu {
-	padding: 0 0 60px 0;
+	padding: 0 0 0px 0;
 }
 	#restaurant-menu .section-title {
 		background: #444 url(../images/2Guide_1800p.JPG) center center no-repeat fixed;
@@ -305,6 +309,44 @@ header .intro-text {
 	font-weight: 600;
 	color: #555;
 	margin-top: -26px;
+}
+/*  SLIDER  */
+
+.main-slider {
+	margin-top: 265px;
+	position: relative;
+	height: calc(100vh - 265px);
+	min-height: 550px;
+	width: 100%;
+	overflow: hidden;
+}
+
+	.main-slider .slider-content {
+		padding: 25px 60px 25px 40px !important;
+		border-radius: 3px !important;
+		background: rgba(0,0,0,.6);
+		color: #fff;
+	}
+
+.slider-content .btn {
+	padding: 7px 15px;
+}
+
+.slider-content .title {
+	margin: 10px 0 0;
+	letter-spacing: 3px;
+}
+
+
+#slider {
+	height: 100%;
+	width: 100%;
+}
+
+.main-slider .ls-nav-prev,
+.main-slider .ls-nav-next {
+	display: block !important;
+	opacity: 1 !important;
 }
 /* Portfolio Section */
 #portfolio {
