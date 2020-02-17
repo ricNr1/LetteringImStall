@@ -231,6 +231,20 @@ header .intro-text {
 #about {
 	padding: 120px 0;
 }
+#aboutCenter {
+	padding: 120px 0;
+	
+	
+}
+	#aboutCenter h2 {
+		text-align: center;
+		text-decoration: underline var(--hintergrundLight);
+	}
+	#aboutCenter hr
+	{
+		visibility:hidden
+		
+	}
 #Erklaerungen {
 	padding: 20px 0;
 }
@@ -246,6 +260,7 @@ header .intro-text {
 #about .about-img {
 	display: inline-block;
 	position: relative;
+	margin-top:5px;
 }
 #about .about-img:before {
 	display: block;
