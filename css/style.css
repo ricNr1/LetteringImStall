@@ -276,17 +276,30 @@ header .intro-text {
 	line-height: 24px;
 	margin: 15px 0 30px;
 }
+
+#buchenBilder{
+
+}
+
 /* Menu Section */
 #restaurant-menu {
 	padding: 0 0 0px 0;
 }
 	#restaurant-menu .section-title {
-		background: #444 url(../images/2Guide_1800p.JPG) center center no-repeat fixed;
+		
 		top: 0;
 		left: 0;
 		min-width: 100%;
 		min-height: 100%;
 		background-size: cover;
+	}
+
+	#restaurant-menu .hintergrungProfis {
+		background: #444 url(../images/ED616567-896C-4337-AB92-1AD59C95B630_600p.JPG) center center no-repeat;
+	}
+
+	#restaurant-menu .hintergrungAnfaenger {
+		background: #444 url(../images/2Guide_1800p.JPG) center center no-repeat;
 	}
 #restaurant-menu .section-title h2 {
 	color: #fff;
