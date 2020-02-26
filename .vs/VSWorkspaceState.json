@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\css",
+    "\\fonts\\font-awesome",
+    "\\fonts\\fonts"
   ],
+  "SelectedNode": "\\NOCNAME",
   "PreviewInSolutionExplorer": false
 }
