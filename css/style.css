@@ -238,7 +238,7 @@ header .intro-text {
 }
 	#aboutCenter h2 {
 		text-align: center;
-		text-decoration: underline var(--hintergrundLight);
+		/*text-decoration: underline var(--hintergrundLight);*/
 	}
 	#aboutCenter hr
 	{
