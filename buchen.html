@@ -185,9 +185,10 @@
                                                 <option value="ST">Sachsen-Anhalt</option>
                                                 <option value="TH">Thüringen</option>
                                             </select>
-                                            <input type="text" name="Postleitzahl" placeholder="97990" required="">
-                                            <label for="street-address">Straße</label>
+
+                                            <label for="street-address">Straße und Hausnummer</label>
                                             <input type="text" name="Strasse" id="street-address" placeholder="Letteringstraße 12" required="">
+                                            <input type="text" name="Postleitzahl" placeholder="97990" required="">
                                         </fieldset>
                                         <label for="note">Nachricht</label>
                                         <textarea rows="2" name="Nachricht" id="note" placeholder="Ergänze jegliche zusätzlichen Infos"></textarea>
@@ -298,11 +299,15 @@
                                     /* address, locale */
                                     #fs-frm fieldset.locale input[name="Stadt"],
                                     #fs-frm fieldset.locale select[name="Bundesland"],
-                                    #fs-frm fieldset.locale input[name="Postleitzahl"] {
+                                    #fs-frm fieldset.locale input[name="Postleitzahl"],
+                                    #fs-frm fieldset.locale input[name="Strasse"]
+                                    {
                                         display: inline;
                                     }
 
-                                    #fs-frm fieldset.locale input[name="Stadt"] {
+                                    #fs-frm fieldset.locale input[name="Stadt"],
+                                    #fs-frm fieldset.locale input[name="Strasse"]
+                                    {
                                         width: 52%;
                                     }
 
@@ -312,11 +317,14 @@
 
                                     #fs-frm fieldset.locale select[name="Bundesland"],
                                     #fs-frm fieldset.locale input[name="Postleitzahl"] {
-                                        width: 20%;
+                                        width: 40%;
                                     }
 
                                     #fs-frm fieldset.locale input[name="Stadt"],
-                                    #fs-frm fieldset.locale select[name="Bundesland"] {
+                                    #fs-frm fieldset.locale select[name="Bundesland"],
+                                    #fs-frm fieldset.locale input[name="Postleitzahl"],
+                                    #fs-frm fieldset.locale input[name="Strasse"]
+                                    {
                                         margin-right: 3%;
                                     }
                                 </style>
