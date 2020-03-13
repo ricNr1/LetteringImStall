@@ -149,27 +149,29 @@
                                 <form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/erich.balles@hotmail.de" method="post">
                                     <fieldset id="fs-frm-inputs">
                                         <label for="full-name">Vor und Nachname</label>
-                                        <input type="text" name="name" id="full-name" placeholder="Max Mustermann 2" required="">
-                                        <label for="cutomfeld">Noch irgendwas reinschreiben</label>
-                                        <input type="text" name="name" id="cutomfeld" placeholder="Zum Beispiel: Anfaenger" required="">
-                                        <label for="email-address">Email Address</label>
-                                        <input type="email" name="_replyto" id="email-address" placeholder="deineEmail@domain.de" required="">
-                                        <label for="street-address">Street Address</label>
-                                        <input type="text" name="street" id="street-address" placeholder="Street" required="">
+                                        <input type="text" name="Name" id="full-name" placeholder="David Lettermann" required="">
 
+
+                                        <label for="email-address">Email Addresse</label>
+                                        <input type="email" name="_replyto" id="email-address" placeholder="deineEmail@domain.de" required="">
+
+
+                                        <label for="full-name">Kurs wählen</label>
                                         <select name="gewaehlter-kurs" required="">
                                             <option value="Select" selected="" disabled="">Kurs</option>
-                                            <option value="Anfaenger">Anfänger</option>
-                                            <option value="Fortgeschritten">Fortgeschritten</option>                 
+                                            <option value="Anfaenger 05.05.2020">Anfänger 05.05.2020</option>
+                                            <option value="Anfaenger 12.05.2020">Anfänger 12.05.2020</option>
+                                            <option value="Fortgeschritten  19.05.2020">Fortgeschritten 19.05.2020</option>
+                                            <option value="Fortgeschritten  26.05.2020">Fortgeschritten 26.05.2020</option>
                                         </select>
-                                            
-                        
+
+
 
                                         <fieldset class="locale">
                                             <legend>Wohnort</legend>
-                                            <input type="text" name="Stadt" placeholder="Musterstadt" required="">
+                                            <input type="text" name="Stadt" placeholder="Letteringhausen" required="">
                                             <select name="Bundesland" required="">
-                                                <option value="Select" selected="" disabled="">State</option>
+                                                <option value="Select" selected="" disabled="">Bundesland</option>
                                                 <option value="BB">Brandenburg</option>
                                                 <option value="BE">Berlin</option>
                                                 <option value="BW">Baden-Württemberg</option>
@@ -185,13 +187,16 @@
                                                 <option value="SL">Saarland</option>
                                                 <option value="SN">Sachsen</option>
                                                 <option value="ST">Sachsen-Anhalt</option>
-                                                <option value="TH">Thüringen</option>                                                
+                                                <option value="TH">Thüringen</option>
                                             </select>
-                                            <input type="text" name="postal-code" placeholder="12345" required="">
+                                            <input type="text" name="postal-code" placeholder="97990" required="">
+                                            <label for="street-address">Straße</label>
+                                            <input type="text" name="Strasse" id="street-address" placeholder="Letteringstraße 12" required="">
                                         </fieldset>
-                                        <label for="note">Note</label>
+                                        <label for="note">Nachricht</label>
                                         <textarea rows="2" name="note" id="note" placeholder="Include any additional information"></textarea>
                                         <input type="hidden" name="_subject" id="email-subject" value="Neue Anmeldung">
+                                        <input type="hidden" name="_next" value="https://ricnr1.github.io/LetteringImStall/" />
                                     </fieldset>
                                     <input type="submit" value="Register">
                                 </form>
