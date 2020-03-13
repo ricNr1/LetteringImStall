@@ -3,9 +3,10 @@
 	font-family: Eis;
 }
 :root {
-	--hintergrundLight: #84592d;
+	/*--hintergrundLight: #84592d;*/
+	--hintergrundLight: #855E42;
 	--hintergrundDark: #84592d;
-	--hintergrundWhite: #fff;
+	--hintergrundWhite: #855e4226;
 	--hintergrundLightBackup: #84592d;
 }
 body, html {
@@ -117,10 +118,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding: 20px;
 	transition: all 0.8s;
 }
-#menu.navbar-default {
-	background-color: rgba(248, 248, 248, 0);
-	border-color: rgba(231, 231, 231, 0);
-}
+	#menu.navbar-default {
+		background-color: rgba(231, 231, 231, 0);
+		border-color: rgba(231, 231, 231, 0);
+	}
+	/*#menu.navbar-default-gray {
+		background-color: rgba(103, 103, 103, 0.44);
+	}*/
 	#menu a.navbar-brand {
 		font-family: 'Eis';
 		font-size: 36px;
@@ -139,9 +143,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	letter-spacing: 0.5px;
 	margin: 10px 15px 0 15px;
 }
-	#menu.navbar-default .navbar-nav > li > a:hover {
+	/*#menu.navbar-default .navbar-nav > li > a:hover {
 		color: #876a45;
-	}
+	}*/
 .on {
 	background-color: var(--hintergrundLight) !important;
 	padding: 0 !important;
@@ -160,6 +164,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
+}
+#menu.navbar-default-solid {
+	background-color: var(--hintergrundLight);
+	border-color: rgba(231, 231, 231, 0);
 }
 .section-title {
 	margin-bottom: 70px;
